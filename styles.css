@@ -7,20 +7,21 @@ html{
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+			justify-content: space-between;
         }
         .item{
             width: 150px;
             height: 150px;
-            background-color: red;
+            background-color: green;
             border: 2px solid black;
             margin: 2px;
             padding: 5px;
         }
         #item-1{
             order: 1;
-            background-color: green;
+            background-color: red;
         }
         #item-2{
             order: 2;
-            background-color: green;
+            background-color: blue;
         }
